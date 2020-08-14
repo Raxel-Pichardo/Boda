@@ -630,7 +630,7 @@ var app = {
     },
    reloj: function () {
         setInterval(function () {
-            contador("2020-11-28T16:00:00.000Z");
+            contador("2020-11-28T21:00:00.000Z");
         }, 1000);
     },
    abrirRecomendacion: function (recomendacion) {
