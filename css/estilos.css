@@ -203,7 +203,7 @@ body {
 
 .btn-grl {
     color: #fff;
-    background: #FF2754;
+    background: #bf930d;
     transition: all 0.3s;
     position: relative;
     padding: 10px 20px;
@@ -217,7 +217,7 @@ body {
 }
 
 .btn-grl:after {
-    background-color: #FF2754;
+    background-color: #bf930d;
     border-radius: 65px;
     transition: all 0.3s;
     z-index: -1;
@@ -231,7 +231,7 @@ body {
 }
 
 .btn-grl:hover:after {
-    box-shadow: 0 6px 30px 10px rgba(255, 56, 83, 0.25);
+    box-shadow: 0 6px 30px 10px rgba(191, 147, 13, 0.50);
 }
 
 /*
@@ -470,7 +470,7 @@ footer a{
 
 
 .intro {
-    background-image: url(../img/portada.jpg);
+    background-image: url(../img/collage.jpg);
     background-position:center center;
 
 }
@@ -507,6 +507,11 @@ footer a{
     font-size: 24px;
     font-family: 'Great Vibes', cursive;
     margin: 14px 0;
+}
+
+.and-iniciales {
+    font-size: 20px;
+    font-family: 'inherit';
 }
 
 .circulo-and:after,
@@ -811,15 +816,20 @@ footer a{
 
 
 .foto-novio {
-    background: url(../img/novio.jpg) no-repeat center;
+    background: url(../img/raxel.jpeg) no-repeat center;
     background-size: cover;
     float: right;
 }
 
 .foto-novia {
-    background: url(../img/novia.jpg) no-repeat center;
+    background: url(../img/fredell.jpeg) no-repeat center;
     background-size: cover;
     float: left;
+}
+
+.foto-footer {
+    background: url(../img/IMAGEN-FOOTER624.jpg) no-repeat center;
+    background-size: cover;
 }
 
 .invitacion-texto {
@@ -850,8 +860,8 @@ footer a{
 }
 
 .event-hra {
-    border: 1px solid #FF2754;
-    color: #FF2754;
+    border: 1px solid #bf930d;
+    color: #bf930d;
     border-radius: 30px;
     width: 114px;
     font-size: 20px;
@@ -874,7 +884,7 @@ footer a{
     text-align: center;
     margin: 94px auto 38px;
     width: 430px;
-    border: 1px solid #ff3853;
+    border: 1px solid #bf930d;
     padding: 20px 0 40px;
     position: relative;
 }
@@ -899,14 +909,14 @@ footer a{
     font-size: 52px;
     display: inline-block;
     vertical-align: middle;
-    color: #ff3853;
+    color: #bf930d;
     position: relative;
     margin: 0 20px;
     font-weight: 300;
 }
 
 .contador-container>div:before {
-    content: "DÃ­as";
+    content: "Dí­as";
     position: absolute;
     font-size: 24px;
     bottom: -20px;
@@ -1158,6 +1168,15 @@ footer a{
 
 }
 
+.negritas {
+    font-weight: bold;
+}
+
+.img-location {
+    width: 50%;
+    border-radius: 10%;
+}
+
 
 
 /*Reservacion*/
@@ -1262,9 +1281,9 @@ footer a{
     -ms-appearance: none;
 }
 .form-reservacion select:focus,.form-reservacion input:focus,.form-reservacion textarea:focus{
-    border: #FF2754 1px solid;
+    border: #bf930d 1px solid;
     outline: 0;
-    box-shadow: 0 0 22px rgba(255, 39, 84, .2);
+    box-shadow: 0 0 22px rgba(191, 147, 13, .2);
 
 }
 .form-reservacion textarea{
@@ -1876,6 +1895,21 @@ footer a{
     top: 65%;
     animation: line-three 5s infinite linear;
 }
+
+.font-esperamos {
+    font-size: 75px;
+    font-family: Great Vibes;
+    color: #333;
+    margin: 18px 0 12px;
+}
+
+.font-esperamos-footer {
+    font-size: 75px;
+    font-family: Great Vibes;
+    color: #bf930d;
+    margin: 18px 0 12px;
+}
+
 /*Medias*/
 
 @media (max-width: 1424px) {
