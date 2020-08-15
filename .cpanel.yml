@@ -1,8 +1,8 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home4/raxelpichardo/public_html/
+    - export DEPLOYPATH=/home4/nues/public_html/
     - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp -R /home4/raxelpichardo/repositories/css $DEPLOYPATH
-    - /bin/cp -R /home4/raxelpichardo/repositories/js $DEPLOYPATH
-    - /bin/cp -R /home4/raxelpichardo/repositories/img $DEPLOYPATH
+    - /bin/cp -R /home4/nues/repositories/Boda/css $DEPLOYPATH
+    - /bin/cp -R /home4/nues/repositories/Boda/js $DEPLOYPATH
+    - /bin/cp -R /home4/nues/repositories/Boda/img $DEPLOYPATH

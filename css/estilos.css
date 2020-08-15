@@ -1590,7 +1590,13 @@ footer a{
 /*Galeria*/
 
 .galeria {
-    background: url("https://www.miboda.love/endPoint/generador/img/pared.jpg") no-repeat;
+    background: url(../img/pared.jpg) no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.video-url {
+    background: url(../img/video.jpg) no-repeat;
     background-size: cover;
     padding: 100px 0;
 }
