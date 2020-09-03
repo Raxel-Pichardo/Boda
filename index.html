@@ -110,7 +110,7 @@
             </section>
             <section id="reservacion" class="reservacion-section">
 
-                <form id="deseos" class="form-reservacion" onsubmit="return app.enviarConfirmacion(event)">
+                <form method="POST" id="form-confirm" class="form-reservacion">
                     <div class="wrap-send">
                         <div class="enviando">
                             <div class="box">
@@ -134,28 +134,28 @@
                     <h4>Confirma tu asistencia</h4>
                     <p class='ninos' style="color:#666">Agradecemos su confirmación.</p>
                     <div class="row">
-                        <input required type="text" placeholder="· Nombre completo*" class="usr-nombre" name="user_name">
+                        <input  type="text" id="form-name" maxlength="100" placeholder="· Nombre completo" class="usr-nombre" name="user_name">
                     </div>
                     <div class="row">
-                        <div class="mdl-2"> <input required type="email" placeholder="· Email" class="usr-correo"
+                        <div class="mdl-2"> <input  type="email" id="form-email" maxlength="50" placeholder="· Email" class="usr-correo"
                                 name="user_email"></div>
                         <div class="mdl-2">
-                            <input required type="text" id="telefono" placeholder="Teléfono">
+                            <input  type="tel" id="form-phone" maxlength="10" id="telefono" placeholder="· Teléfono">
                         </div>
                     </div>
                     <div class="row">
                         <div class="mdl-2">
-                            <select name="" required id="invitados" class="num-invitados">
+                            <select name=""  id="invitados" class="num-invitados">
                                 <option value="" disabled selected>· Confirmación</option>
-                                <option value="1">Asistiré</option>
-                                <option value="0">No asistiré</option>
+                                <option value="Asistiré">Asistiré</option>
+                                <option value="No Asistiré">No asistiré</option>
                             </select>
                         </div>
                         <div style="display: none;" class="mdl-2"><input type="text" id="alergia" placeholder="¿Alérgico a algun alimento?">
                         </div>
                     </div>
                     <div class="row">
-                        <textarea type="text" placeholder="· Dedica un mensaje a Fredell y Raxel"
+                        <textarea type="text" id="form-message" placeholder="· Dedica un mensaje a Fredell y Raxel"
                             class="deseos-invitados" name="user_comentarios"></textarea>
                     </div>
 

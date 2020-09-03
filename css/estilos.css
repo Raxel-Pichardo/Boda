@@ -1859,7 +1859,7 @@ footer a{
 
 .enviando::after {
     content: 'Confirmando...';
-    color: #EC0201;
+    color: #bf930d;
     font-weight: 700;
     position: absolute;
     bottom: -56px;
@@ -1875,7 +1875,7 @@ footer a{
 }
 
 .border {
-    background: #EC0201;
+    background: #bf930d;
     position: absolute;
 }
 
@@ -1912,7 +1912,7 @@ footer a{
 
 .line {
     height: 4px;
-    background: #EC0201;
+    background: #bf930d;
     position: absolute;
     width: 0%;
     left: 25%;
