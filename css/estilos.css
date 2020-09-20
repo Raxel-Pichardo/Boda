@@ -470,8 +470,19 @@ footer a{
 
 
 .intro {
-    background-image: url(../img/collage.jpg);
+    background-image: url(../img/118.jpeg);
     background-position:center center;
+
+}
+
+.background-video {
+    background-image: url(../img/wedding_roses.jpg);
+    background-position:top;
+
+}
+
+.padding-video {
+    padding: 3% 0 3% 0;
 
 }
 
@@ -848,19 +859,19 @@ footer a{
 
 
 .foto-novio {
-    background: url(../img/raxel.jpeg) no-repeat center;
+    background: url(../img/raxel-cara.png) no-repeat center;
     background-size: cover;
     float: right;
 }
 
 .foto-novia {
-    background: url(../img/fredell.jpeg) no-repeat center;
+    background: url(../img/fredell-cara.png) no-repeat center;
     background-size: cover;
     float: left;
 }
 
 .foto-footer {
-    background: url(../img/IMAGEN-FOOTER624.jpg) no-repeat center;
+    background: url(../img/) no-repeat center;
     background-size: cover;
 }
 
@@ -1129,7 +1140,7 @@ footer a{
 /*Invitacion*/
 
 .propuesta {
-    background-image: url("../img/propuesta.jpg");
+    background-image: url("../img/102.jpeg");
     padding: 100px 0 340px;
     color: #fff;
     overflow: hidden;
@@ -1592,7 +1603,13 @@ footer a{
 .galeria {
     background: url(../img/pared.jpg) no-repeat;
     background-size: cover;
-    padding: 100px 0;
+    padding: 0px 0;
+}
+
+.footer-background {
+    background: url(../img/129.jpeg) no-repeat;
+    background-size: cover;
+    padding: 20% 0;
 }
 
 .video-url {
@@ -1944,7 +1961,7 @@ footer a{
 .font-esperamos-footer {
     font-size: 75px;
     font-family: Great Vibes;
-    color: #bf930d;
+    color: white;
     margin: 18px 0 12px;
 }
 
