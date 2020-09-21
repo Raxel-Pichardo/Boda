@@ -181,7 +181,7 @@ var app = {
     },
    abrirRecomendacion: function (recomendacion) {
         // e.preventDefault();
-        $(".modal-wrap").load(recomendacion + ".html");
+    /*     $(".modal-wrap").load(recomendacion + ".html"); */
         $(".modal-container").fadeIn();
     },
 	reproducirMusica: function () {
