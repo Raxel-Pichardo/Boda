@@ -2249,3 +2249,17 @@ footer a{
     }
 
 }
+
+@media (max-width: 334px) {}
+
+    .contador-container>div {
+        font-family: "Halant";
+        text-align: center;
+        font-size: 52px;
+        display: inline-block;
+        vertical-align: middle;
+        color: #bf930d;
+        position: relative;
+        margin: 0 10px;
+        font-weight: 300;
+    }
