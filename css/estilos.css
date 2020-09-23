@@ -2250,8 +2250,7 @@ footer a{
 
 }
 
-@media (max-width: 334px) and (min-width:20px ) {}
-
+@media (max-width: 334px) and (min-width:20px ) {
     .contador-container>div {
         font-family: "Halant";
         text-align: center;
@@ -2263,3 +2262,4 @@ footer a{
         margin: 0 10px;
         font-weight: 300;
     }
+}
