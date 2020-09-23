@@ -1707,7 +1707,7 @@ footer a{
 }
 
 
-/*MEsa*/
+/*Mesa*/
 
 .mesa {
     padding: 100px 0;
@@ -2196,6 +2196,7 @@ footer a{
     }
     .propuesta {
         padding: 40px 0 340px;
+        background-position-x: 40% !important;
     }
     .hg-100 {
         padding: 40px 0;
@@ -2221,6 +2222,15 @@ footer a{
     }
     .contador-container{
         width:100%;
+    }
+
+    .modal-wrap h3 {
+        font-size: 23px;
+        margin-top: -50px;
+        background: #fff;
+        padding: 0 20px;
+        margin-bottom: 30px;
+        margin-left: -20px;
     }
 
 }
